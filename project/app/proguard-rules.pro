@@ -1,0 +1,1 @@
+# Keep rules intentionally minimal for a lightweight binary.

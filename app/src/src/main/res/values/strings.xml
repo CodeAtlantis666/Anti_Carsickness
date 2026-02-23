@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">&#36710;&#36742;&#36816;&#21160;&#25552;&#31034;</string>
+    <string name="qs_tile_label">&#36816;&#21160;&#25552;&#31034;</string>
+    <string name="overlay_running">&#24748;&#28014;&#36816;&#34892;&#20013;</string>
+    <string name="overlay_stopped">&#24748;&#28014;&#24050;&#20572;&#27490;</string>
+
+    <string name="notification_channel_name">&#36710;&#36742;&#36816;&#21160;&#25552;&#31034;&#24748;&#28014;&#23618;</string>
+    <string name="notification_channel_desc">&#22312;&#20854;&#20182;&#24212;&#29992;&#19978;&#26041;&#25345;&#32493;&#26174;&#31034;&#36710;&#36742;&#36816;&#21160;&#25552;&#31034;</string>
+    <string name="notification_title">&#36710;&#36742;&#36816;&#21160;&#25552;&#31034;</string>
+    <string name="notification_text">&#24748;&#28014;&#25552;&#31034;&#24050;&#24320;&#21551;</string>
+    <string name="notification_action_stop">&#20572;&#27490;</string>
+
+    <string name="status_detecting">&#36710;&#36742;&#29366;&#24577;&#65306;&#26816;&#27979;&#20013;&#46;&#46;&#46;</string>
+    <string name="hint_mode_auto">&#25552;&#31034;&#27169;&#24335;&#65306;&#33258;&#21160;</string>
+
+    <string name="btn_grant_overlay">&#25480;&#26435;&#24748;&#28014;&#31383;</string>
+    <string name="btn_grant_sampling">&#25480;&#26435;&#23631;&#24149;&#21462;&#33394;&#65288;&#33258;&#21160;&#28145;&#27973;&#65289;</string>
+    <string name="btn_stop_overlay">&#20572;&#27490;&#20840;&#23616;&#24748;&#28014;</string>
+    <string name="btn_start_overlay">&#21551;&#21160;&#20840;&#23616;&#24748;&#28014;</string>
+
+    <string name="opt_off">&#20851;&#38381;</string>
+    <string name="opt_auto">&#33258;&#21160;</string>
+    <string name="opt_on">&#24320;&#21551;</string>
+    <string name="opt_regular">&#24120;&#35268;</string>
+    <string name="opt_dynamic">&#21160;&#24577;</string>
+    <string name="opt_auto_tone">&#33258;&#21160;&#28145;&#27973;</string>
+    <string name="opt_pure_dark">&#32431;&#40657;</string>
+    <string name="opt_normal_dots">&#26222;&#36890;&#22278;&#28857;</string>
+    <string name="opt_large_dots">&#26356;&#22823;&#22278;&#28857;</string>
+    <string name="opt_normal_density">&#26222;&#36890;&#23494;&#24230;</string>
+    <string name="opt_more_density">&#26356;&#22810;&#22278;&#28857;</string>
+
+    <string name="label_display">&#26174;&#31034;</string>
+    <string name="label_style">&#36816;&#21160;&#39118;&#26684;</string>
+    <string name="label_color">&#39068;&#33394;</string>
+    <string name="label_size">&#22823;&#23567;</string>
+    <string name="label_default_dot_size">&#40664;&#35748;&#22278;&#28857;&#22823;&#23567;</string>
+    <string name="dot_size_percent_value">%1$d%%</string>
+    <string name="label_density">&#23494;&#24230;</string>
+    <string name="label_min_contrast">最小对比度</string>
+    <string name="label_color_transition">颜色过渡时长</string>
+    <string name="label_quick_transition">快速路径过渡</string>
+    <string name="label_fine_sample_hz">精细采样频率</string>
+    <string name="label_quick_threshold_light">快速亮背景阈值</string>
+    <string name="label_quick_threshold_dark">快速暗背景阈值</string>
+    <string name="label_alpha_fast">fastFilter alpha</string>
+    <string name="label_alpha_slow">slowFilter alpha</string>
+    <string name="label_motion_damping">速度阻尼 k_v</string>
+    <string name="label_turn_smooth">转向平滑 turnSmooth</string>
+    <string name="label_predict_k">预测幅度 predictK</string>
+    <string name="label_high_contrast_mode">高对比度模式</string>
+    <string name="label_reduced_motion">减少动态效果</string>
+    <string name="label_color_demo">颜色系统示例</string>
+    <string name="label_demo_scene">测试背景场景</string>
+    <string name="label_demo_state">示例状态</string>
+    <string name="label_bg_r">背景R</string>
+    <string name="label_bg_g">背景G</string>
+    <string name="label_bg_b">背景B</string>
+    <string name="label_bg_sample">当前背景采样</string>
+    <string name="label_contrast_value">当前对比度</string>
+    <string name="label_runtime_debug">运行调试信息</string>
+    <string name="scene_light">浅色背景</string>
+    <string name="scene_dark">深色背景</string>
+    <string name="scene_stripes">高对比条纹</string>
+    <string name="scene_custom">自定义背景</string>
+    <string name="value_min_contrast">%1$.1f</string>
+    <string name="value_transition_ms">%1$d ms</string>
+    <string name="value_hz">%1$d Hz</string>
+    <string name="value_ratio_2">%1$.2f</string>
+    <string name="value_color_hex">#%1$s</string>
+    <string name="value_contrast_info">%1$.2f（达标=%2$s）</string>
+    <string name="value_runtime_debug">L_quick=%1$.3f | style=%2$s | contrast=%3$.2f | latency=%4$dms</string>
+    <string name="state_idle">静止</string>
+    <string name="state_accelerating">加速</string>
+    <string name="state_braking">刹车</string>
+    <string name="state_turning">转向</string>
+    <string name="state_cruising">巡航</string>
+    <string name="state_jerk">颠簸</string>
+    <string name="switch_on">开</string>
+    <string name="switch_off">关</string>
+
+    <string name="quick_tile_hint">&#19979;&#25289;&#25511;&#21046;&#20013;&#24515;&#32;&#45;&#62;&#32;&#32534;&#36753;&#25353;&#38062;&#65292;&#28155;&#21152;&#8220;&#36816;&#21160;&#25552;&#31034;&#8221;&#24555;&#25463;&#24320;&#20851;&#12290;</string>
+
+    <string name="status_in_vehicle">&#36710;&#36742;&#29366;&#24577;&#65306;&#34892;&#39542;&#20013;&#32;&#40;%1$d%%&#41;</string>
+    <string name="status_uncertain">&#36710;&#36742;&#29366;&#24577;&#65306;&#19981;&#30830;&#23450;&#32;&#40;%1$d%%&#41;</string>
+    <string name="motion_details">&#32437;&#21521;=%1$.2f &#27178;&#21521;=%2$.2f &#36895;&#24230;&#20272;&#35745;=%3$.2f &#24378;&#24230;=%4$.2f</string>
+
+    <string name="toast_sampling_granted">&#23631;&#24149;&#21462;&#33394;&#25480;&#26435;&#25104;&#21151;</string>
+    <string name="toast_sampling_denied">&#26410;&#25480;&#20104;&#23631;&#24149;&#21462;&#33394;&#26435;&#38480;&#65292;&#33258;&#21160;&#28145;&#27973;&#23558;&#20351;&#29992;&#22238;&#36864;&#31574;&#30053;</string>
+    <string name="toast_need_overlay_permission">&#38656;&#35201;&#24748;&#28014;&#31383;&#26435;&#38480;</string>
+
+    <string name="overlay_permission_granted">&#24748;&#28014;&#31383;&#26435;&#38480;&#65306;&#24050;&#25480;&#26435;</string>
+    <string name="overlay_permission_denied">&#24748;&#28014;&#31383;&#26435;&#38480;&#65306;&#26410;&#25480;&#26435;</string>
+    <string name="sampling_permission_granted">&#23631;&#24149;&#21462;&#33394;&#26435;&#38480;&#65306;&#24050;&#25480;&#26435;&#65288;&#33258;&#21160;&#28145;&#27973;&#21487;&#29992;&#65289;</string>
+    <string name="sampling_permission_denied">&#23631;&#24149;&#21462;&#33394;&#26435;&#38480;&#65306;&#26410;&#25480;&#26435;&#65288;&#33258;&#21160;&#28145;&#27973;&#20351;&#29992;&#22238;&#36864;&#31574;&#30053;&#65289;</string>
+
+    <string name="overlay_state_running">&#20840;&#23616;&#24748;&#28014;&#65306;&#36816;&#34892;&#20013;</string>
+    <string name="overlay_state_starting">&#20840;&#23616;&#24748;&#28014;&#65306;&#27491;&#22312;&#21551;&#21160;&#47;&#31561;&#24453;</string>
+    <string name="overlay_state_stopped">&#20840;&#23616;&#24748;&#28014;&#65306;&#24050;&#20572;&#27490;</string>
+</resources>
